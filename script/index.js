@@ -97,10 +97,10 @@ function infoBattery () {
 
 function isOnline() {
     if (navigator.onLine) {
-        return 'Online';
+        return wifi.innerText = 'Online';
     } else {
         wifi.style.background = '#ff0000';
-        return 'Offline';
+        return wifi.innerText = 'Offline';
     }    
 }
 
