@@ -27,6 +27,9 @@ Using our service is simple:
 3. **WiFi Information:**
    - Visit the "WiFi" section.
    - This section provides insights into your WiFi connection, including network name, signal strength, and connection status.
+  
+## Start Here!
+<a href="https://alejopc7410.github.io/client-detection/" target="_blank">Click Here</a>
 
 ## Languages Used
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
