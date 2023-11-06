@@ -3,47 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="Alejandro">
+    <title>Final Project</title>
     <link rel="stylesheet" href="./index.css" media="all">
     <script src="./index.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="https://media.flaticon.com/dist/min/img/favicon.ico?v=2" type="image/x-icon">
-    <title>Assignment 04</title>
 </head>
 <body>
-    <header>
-        <div class="container flexbox">
-            <h1>TEMPERATURE CONVERTER</h1>
-            <nav>
-                <ul>
-                    <li>ABOUT US</li>
-                    <li>PROJECTS</li>
-                    <li>CONTACT</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <section class="input">
-                <form>
-                    <input type="text" id="temperature" placeholder="Enter the temperature">
-                    <div>
-                        <input type="radio" name="temperature" id="Fahrenheit" class="fahrenheit radio" checked>
-                        <label for="Fahrenheit" class="label">To Fahrenheit</label>
-                        <input type="radio" name="temperature" id="Celsius" class="celsius radio">
-                        <label for="Celsius" class="label">To Celsius</label>
-                    </div>
-                </form>
-                <input type="button" class="btn" value="CONVERT">
+    <div class="container flex">
+        <div class="center">
+            <section class="system">
+                <h2>SYSTEM</h2>
+                <p class="os"></p>
+                <p class="language"></p>
+                <p class="browser"></p>
             </section>
-            <section class="output">
-                <p></p>
+            <section class="window">
+                <h2>WINDOW</h2>
+                <p class="width"></p>
+                <p class="height"></p>
+                <p class="orientation"></p>
             </section>
-            <button class="background-mode"><i class="fa-solid fa-palette"></i></button>
-
-            
+            <section class="batery">
+                <h2>BATTERY</h2>
+                <p class="level"></p>
+                <p class="status"></p>
+            </section>
         </div>
-    </main>
+        <div>
+            <button class="wifi-status"></button>
+        </div>
+        
+    </div>
 </body>
 </html>
